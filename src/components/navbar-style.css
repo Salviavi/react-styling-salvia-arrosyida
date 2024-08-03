@@ -1,0 +1,45 @@
+/* margins and padding, basic */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F8F0E5;
+}
+
+/* styling header */
+.header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.header-left, .header-right {
+    display: flex;
+    gap: 20px; /* jarak tiap tombol */
+}
+
+/* styling logo */
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-img {
+    max-height: 250px; /* Adjust the height as needed */
+    background: transparent;
+    border: none;
+}
+
+/* styling link menu header */
+.header a {
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #B6C7AA; /* warna background tombol */
+    border-radius: 5px;
+}
